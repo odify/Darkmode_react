@@ -1,0 +1,18 @@
+html{ 
+    font-size: 2em;
+}
+.daymode{
+    height: 100vh;
+    background-color: #fff;
+    color: black;
+}
+.darkmode{
+    height: 100vh;
+    background-color: black;
+    color:#fff ;
+}
+button{
+    padding: 17.5px 15px;
+    overflow: hidden;
+    box-shadow: 2px 2px 3px #333;
+}
