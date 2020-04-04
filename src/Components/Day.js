@@ -13,8 +13,9 @@ class Day extends Component {
     render() {
         return (
             <section className={this.state.isDay ? "daymode" : "darkmode"}>
-                <p>{this.state.isDay ? "Day-Mode" : "Night-Mode"}</p>
                 <button onClick={this.handleClick}>{this.state.isDay ? "Night-Mode" : "Day-Mode"}</button>
+                <p>{this.state.isDay ? "Day-Mode" : "Night-Mode"}</p>
+
             </section>
         )
 
