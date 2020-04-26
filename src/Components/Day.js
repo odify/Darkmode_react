@@ -13,9 +13,9 @@ class Day extends Component {
     render() {
         return (
             <section className={this.state.isDay ? "daymode" : "darkmode"}>
-                <button onClick={this.handleClick}>{this.state.isDay ? "Night-Mode" : "Day-Mode"}</button>
-                <p>{this.state.isDay ? "Day-Mode" : "Night-Mode"}</p>
-
+                <button onClick={this.handleClick}>{this.state.isDay ? "DARK" : "LIGHT"}</button>
+                <p>{this.state.isDay ? "Have a nice Day" : "This is DARKMODE"}</p>
+                <p>{this.state.isDay ? <p className="icon">&#x1F303;</p> : <p className="icon">&#x1F304;</p>}</p>
             </section>
         )
 
